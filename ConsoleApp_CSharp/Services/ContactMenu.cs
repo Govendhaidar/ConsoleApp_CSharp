@@ -5,14 +5,14 @@ namespace ConsoleApp_CSharp.Services;
 public class ContactMenu
 {
     private readonly MenuServices _menuServices = new();
-
+    // denna kod genererar ChatGpt 4o. Koden skickar ett meddelande till användaren så att användaren kan fortsätta med programmet OM användaren har tryckt fel på tangenten.
     private void InvalidOption(string message)
     {
         Console.WriteLine(message);
         Console.WriteLine("Vänligen tryck på en tangent för att fortsätta");
         Console.ReadKey();
     }
-
+    //
     public void CreateContactMenu()
     {
         bool isRunning = true;
