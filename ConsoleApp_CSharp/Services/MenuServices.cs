@@ -52,6 +52,7 @@ public class MenuServices
 
             Console.WriteLine($"{"Email:",-10} {user.Email}");
             Console.WriteLine($"{"Adress:",-10} {user.Adress}");
+            Console.WriteLine($"{"Created:",-10} {user.CreatedDate}");
 
             Console.WriteLine("");
 

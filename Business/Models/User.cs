@@ -12,6 +12,8 @@
 
         public string Adress { get; set; } = null!;
 
+        public DateTime CreatedDate { get; set; }
+
 
 }
 

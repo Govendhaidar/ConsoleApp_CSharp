@@ -19,6 +19,7 @@ namespace Business.Services;
 
     public void SaveListToFile(List<User> list)
     {
+
         try
         {
             if (!Directory.Exists(_directoryPath))
@@ -32,6 +33,8 @@ namespace Business.Services;
         {
             Debug.WriteLine(ex.Message);
         }
+
+
 
     }
 
@@ -50,9 +53,10 @@ namespace Business.Services;
         catch (Exception ex)
 
         { 
-        Debug.WriteLine(ex.Message);
+            Debug.WriteLine(ex.Message);
             return [];
         }
+
     }
  }
 

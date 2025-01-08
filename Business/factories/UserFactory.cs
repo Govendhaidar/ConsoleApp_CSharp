@@ -20,7 +20,7 @@ public class UserFactory
             LastName = form.lastName,
             Email = form.Email,
             Adress = form.Adress,
-         
+            CreatedDate = DateTime.Now
         };
     }
 }
